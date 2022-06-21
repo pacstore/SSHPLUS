@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.2",
+  "Version": "1.1.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://github.com/alfainternet/SSHPLUS/raw/main/UrlUpdate",
   "Sms": "",
@@ -7,7 +7,23 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "UdpPort": "7300;7500;7295;7296;7200;7297;7298;7299;7400;7500;7600;7700;7800;7900",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
   "Servers": [
     {
       "Name": "PROVEDOR REGIÃO",
